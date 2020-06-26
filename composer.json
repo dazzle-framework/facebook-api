@@ -1,0 +1,40 @@
+{
+    "name": "dazzlesoftware/facebook",
+    "type": "library",
+    "description": "Dazzle Facebook Package",
+    "keywords": ["dazzle", "framework", "facebook"],
+    "homepage": "https://github.com/dazzle-framework/facebook-api",
+    "license": "GPL-3.0-or-later",
+    "require": {
+        "php": "^7.3.0",
+        "dazzlesoftware/oauth2": "^1.0",
+        "dazzlesoftware/input": "^1.0",
+        "dazzlesoftware/http": "^1.0",
+        "dazzlesoftware/uri": "^1.0"
+    },
+    "require-dev": {
+        "dazzlesoftware/dazzle-coding-standard": "^1.0",
+        "dazzlesoftware/test": "^1.0",
+        "phpunit/phpunit": "^9.0"
+    },
+    "suggest": {
+        "dazzlesoftware/registry": "Registry can be used as an alternative to using an array for the package options."
+    },
+    "autoload": {
+        "psr-4": {
+            "Dazzle\\Facebook\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dazzle\\Facebook\\UnitTests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-2.0-dev": "2.0-dev"
+        }
+    }
+}
+
